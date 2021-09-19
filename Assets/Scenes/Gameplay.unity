@@ -1462,7 +1462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLives: 3
-  totalEnemy: 10
+  totalEnemy: 20
   livesInfo: {fileID: 1471152186}
   enemyInfo: {fileID: 218345238}
   towerUIParent: {fileID: 1958886402}
@@ -1492,7 +1492,7 @@ MonoBehaviour:
   - {fileID: 638515084}
   - {fileID: 1732750161}
   - {fileID: 787362767}
-  spawnDelay: 5
+  spawnDelay: 2
 --- !u!114 &736657205
 MonoBehaviour:
   m_ObjectHideFlags: 0

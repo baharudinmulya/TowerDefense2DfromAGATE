@@ -102,13 +102,35 @@ PrefabInstance:
     - target: {fileID: 1582981241500456321, guid: 4374395ea7ed06cd8a84b831cc137f4a,
         type: 3}
       propertyPath: maxHealth
-      value: 6
+      value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1582981241500456321, guid: 4374395ea7ed06cd8a84b831cc137f4a,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 4274242295679774452}
+    - target: {fileID: 1582981241500456321, guid: 4374395ea7ed06cd8a84b831cc137f4a,
+        type: 3}
+      propertyPath: healthFill
+      value: 
+      objectReference: {fileID: 8195400294320386209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4374395ea7ed06cd8a84b831cc137f4a, type: 3}
 --- !u!1 &409699103690396424 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3804255349295401218, guid: 4374395ea7ed06cd8a84b831cc137f4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3559221666924124682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4274242295679774452 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 735720095058474238, guid: 4374395ea7ed06cd8a84b831cc137f4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3559221666924124682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &8195400294320386209 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4674468244495264427, guid: 4374395ea7ed06cd8a84b831cc137f4a,
     type: 3}
   m_PrefabInstance: {fileID: 3559221666924124682}
   m_PrefabAsset: {fileID: 0}
